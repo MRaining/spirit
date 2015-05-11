@@ -1,0 +1,61 @@
+{
+  "version": "1.1.1",
+  "protocol": [
+    "http",
+    "https"
+  ],
+  "rooturl": "",
+  "index": {
+    "href": "index.html",
+    "resources": [
+      "manifest.json",
+      "js/mui.min.js",
+      "css/skin.css",
+      "js/zepto_1.1.3.js",
+      "css/mui.min.css",
+      "fonts/mui.ttf",
+      "js/home.js"
+    ],
+    "refer": [
+      "sub.html"
+    ],
+    "priority": 0
+  },
+  "pages": {
+    "new.html": {
+      "href": "new.html",
+      "resources": [
+        "js/new.js"
+      ],
+      "priority": 0
+    },
+    "sub.html": {
+      "href": "sub.html",
+      "resources": [
+        "js/sub.js",
+        "sound/drip.mp3",
+        "img/avatar.jpg",
+        "img/me.jpg"
+      ],
+      "refer": [
+        "new.html"
+      ],
+      "priority": 0
+    }
+  },
+  "idle": {
+    "resources": [
+      "img/android/splashscreen480x762.png",
+      "img/android/icon144x144.png",
+      "img/android/icon48x48.png",
+      "img/android/icon96x96.png",
+      "img/android/splashscreen240x282.png",
+      "chat.html",
+      "img/android/splashscreen1080x1882.png",
+      "img/android/splashscreen720x1242.png",
+      "img/android/icon72x72.png",
+      "css/mui.css",
+      "img/android/splashscreen320x442.png"
+    ]
+  }
+}
